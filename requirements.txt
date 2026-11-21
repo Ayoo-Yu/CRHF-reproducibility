@@ -1,0 +1,7 @@
+# Full CPU experiment, CPython 3.12.2. See README for the analysis-only environment.
+-r requirements-analysis.txt
+catboost==1.2.10
+lightgbm==4.7.0
+torch==2.14.0
+joblib==1.6.0
+threadpoolctl==3.6.0

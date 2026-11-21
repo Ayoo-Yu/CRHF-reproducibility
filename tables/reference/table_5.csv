@@ -1,0 +1,4 @@
+Test subset,Records,Base forecast MAE / MW,CRHF MAE / MW,MAE reduction / %,Base forecast RMSE / MW,CRHF RMSE / MW,RMSE reduction / %
+All corrected records,6771,8.1126,8.0446,0.84,17.0314,16.7791,1.48
+HH regime,9470,14.3979,14.3410,0.40,25.4817,25.3417,0.55
+Corrected HH records,3168,11.5399,11.3699,1.47,22.3828,21.9025,2.15

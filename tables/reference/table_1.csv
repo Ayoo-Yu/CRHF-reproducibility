@@ -1,0 +1,7 @@
+Farm,Training and validation curtailment rate / %,Test curtailment rate / %,Fixed power scale $s_{n}$ / MW,Common test records
+F1,16.71,24.60,26.74,8226
+F2,13.26,34.80,22.33,8293
+F3,8.24,41.87,110.55,9228
+F4,22.24,45.74,308.64,9233
+F5,20.22,41.56,40.81,8741
+All farms,16.13,38.04,—,43721

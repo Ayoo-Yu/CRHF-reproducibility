@@ -1,0 +1,23 @@
+{
+  "calibration_end": "1997-08-01 00:00:00",
+  "train_end": "1997-12-01 00:00:00",
+  "validation_end": "1998-02-01 00:00:00",
+  "test_end": "1998-05-12 00:00:00",
+  "step_minutes": 15,
+  "capacity_mw": {},
+  "gap_fraction": 0.03,
+  "sigmoid_fraction": 0.02,
+  "minimum_confirmed_bins": 1,
+  "minimum_coverage": 1.0,
+  "observation_delay_minutes": 0,
+  "seed": 20260912,
+  "threads": 8,
+  "max_iter": 260,
+  "n_estimators": 220,
+  "risk_max_iter": 220,
+  "risk_oof_starts": [
+    "1997-09-01",
+    "1997-10-01",
+    "1997-11-01"
+  ]
+}

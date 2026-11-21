@@ -1,0 +1,6 @@
+# Preserve archived bytes across platforms so release checksums verify after cloning.
+* -text
+*.gz binary
+*.npz binary
+*.joblib binary
+*.png binary

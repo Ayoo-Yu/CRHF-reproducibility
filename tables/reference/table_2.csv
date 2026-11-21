@@ -1,0 +1,7 @@
+Strategy,Residual model and auxiliary inputs,Correction selection
+Robust linear correction,"Estimate the remaining residual using $q_{n,t+h|t}$ and $\hat{A}_{n,t+h|t}$.",Always use the linear candidate $\tilde{P}^{(1)}$.
+Neural residual correction,"Estimate the remaining residual using $q_{n,t+h|t}$ and $\hat{A}_{n,t+h|t}$.",Always use the neural candidate $\tilde{P}^{(2)}$.
+Current available power,"Use $A_{n,t}$ in place of $\hat{A}_{n,t+h|t}$, retain $q_{n,t+h|t}$, and refit the residual models.","Group by $q_{n,t}^{0}$ and $q_{n,t+h|t}$ and select the correction by historical gain."
+Stage 2 current score,"Refit Stage 2 using $q_{n,t}^{0}$ in place of $q_{n,t+h|t}$. Stage 3 retains $q_{n,t+h|t}$ and uses the corresponding available-power forecast.","Group by $q_{n,t}^{0}$ and $q_{n,t+h|t}$ and select the correction by historical gain."
+Current observations,"Use $q_{n,t}^{0}$ and $A_{n,t}$ in place of $q_{n,t+h|t}$ and $\hat{A}_{n,t+h|t}$ and refit the residual models.","Use only $q_{n,t}^{0}$ to define the LL and HH regimes and select the correction by historical gain."
+CRHF,"Fit both residual models using $\mathbf{q}_{\mathbf{n},\mathbf{t}+\mathbf{h}|\mathbf{t}}$ and $\hat{\mathbf{A}}_{\mathbf{n},\mathbf{t}+\mathbf{h}|\mathbf{t}}$ as auxiliary inputs.",Select the correction by historical gains in the same risk regime under the current residual model parameters.

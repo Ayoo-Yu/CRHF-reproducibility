@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the accompanying manuscript when using the software or data. Include the release or commit in your citation."
+title: "Curtailment-risk-aware hybrid forecasting of actual wind power under unknown dispatch: risk stratification, available-power forecasting and feedback-gated online correction"
+type: software
+repository-code: "https://github.com/Ayoo-Yu/CRHF-reproducibility"
+authors:
+  - family-names: Yu
+    given-names: Zhongze
+  - family-names: Liu
+    given-names: Zhenqing
+license:
+  - MIT
+  - CC-BY-4.0

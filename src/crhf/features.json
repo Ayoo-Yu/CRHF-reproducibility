@@ -1,0 +1,1825 @@
+{
+  "observed": [
+    "x_actual_operational",
+    "x_potential",
+    "x_dispatch_history",
+    "x_hour_sin",
+    "x_hour_cos",
+    "x_year_sin",
+    "x_year_cos",
+    "x_farm_code",
+    "x_physics_score",
+    "x_gap",
+    "x_tracking",
+    "x_state",
+    "x_severity",
+    "x_loss",
+    "c_count",
+    "c_x_actual_operational",
+    "c_x_potential",
+    "c_x_dispatch_history",
+    "c_x_physics_score",
+    "c_x_gap",
+    "c_x_tracking",
+    "c_sync",
+    "m_x_actual_operational_mean_4",
+    "m_x_actual_operational_max_4",
+    "m_x_actual_operational_mean_8",
+    "m_x_actual_operational_max_8",
+    "m_x_actual_operational_mean_16",
+    "m_x_actual_operational_max_16",
+    "m_x_actual_operational_mean_96",
+    "m_x_actual_operational_max_96",
+    "m_x_potential_mean_4",
+    "m_x_potential_max_4",
+    "m_x_potential_mean_8",
+    "m_x_potential_max_8",
+    "m_x_potential_mean_16",
+    "m_x_potential_max_16",
+    "m_x_potential_mean_96",
+    "m_x_potential_max_96",
+    "m_x_dispatch_history_mean_4",
+    "m_x_dispatch_history_max_4",
+    "m_x_dispatch_history_mean_8",
+    "m_x_dispatch_history_max_8",
+    "m_x_dispatch_history_mean_16",
+    "m_x_dispatch_history_max_16",
+    "m_x_dispatch_history_mean_96",
+    "m_x_dispatch_history_max_96",
+    "m_x_physics_score_mean_4",
+    "m_x_physics_score_max_4",
+    "m_x_physics_score_mean_8",
+    "m_x_physics_score_max_8",
+    "m_x_physics_score_mean_16",
+    "m_x_physics_score_max_16",
+    "m_x_physics_score_mean_96",
+    "m_x_physics_score_max_96",
+    "m_x_gap_mean_4",
+    "m_x_gap_max_4",
+    "m_x_gap_mean_8",
+    "m_x_gap_max_8",
+    "m_x_gap_mean_16",
+    "m_x_gap_max_16",
+    "m_x_gap_mean_96",
+    "m_x_gap_max_96",
+    "m_x_tracking_mean_4",
+    "m_x_tracking_max_4",
+    "m_x_tracking_mean_8",
+    "m_x_tracking_max_8",
+    "m_x_tracking_mean_16",
+    "m_x_tracking_max_16",
+    "m_x_tracking_mean_96",
+    "m_x_tracking_max_96",
+    "m_x_state_mean_4",
+    "m_x_state_max_4",
+    "m_x_state_mean_8",
+    "m_x_state_max_8",
+    "m_x_state_mean_16",
+    "m_x_state_max_16",
+    "m_x_state_mean_96",
+    "m_x_state_max_96",
+    "m_x_severity_mean_4",
+    "m_x_severity_max_4",
+    "m_x_severity_mean_8",
+    "m_x_severity_max_8",
+    "m_x_severity_mean_16",
+    "m_x_severity_max_16",
+    "m_x_severity_mean_96",
+    "m_x_severity_max_96",
+    "m_x_loss_mean_4",
+    "m_x_loss_max_4",
+    "m_x_loss_mean_8",
+    "m_x_loss_max_8",
+    "m_x_loss_mean_16",
+    "m_x_loss_max_16",
+    "m_x_loss_mean_96",
+    "m_x_loss_max_96",
+    "m_c_x_actual_operational_mean_4",
+    "m_c_x_actual_operational_max_4",
+    "m_c_x_actual_operational_mean_8",
+    "m_c_x_actual_operational_max_8",
+    "m_c_x_actual_operational_mean_16",
+    "m_c_x_actual_operational_max_16",
+    "m_c_x_actual_operational_mean_96",
+    "m_c_x_actual_operational_max_96",
+    "m_c_x_potential_mean_4",
+    "m_c_x_potential_max_4",
+    "m_c_x_potential_mean_8",
+    "m_c_x_potential_max_8",
+    "m_c_x_potential_mean_16",
+    "m_c_x_potential_max_16",
+    "m_c_x_potential_mean_96",
+    "m_c_x_potential_max_96",
+    "m_c_x_dispatch_history_mean_4",
+    "m_c_x_dispatch_history_max_4",
+    "m_c_x_dispatch_history_mean_8",
+    "m_c_x_dispatch_history_max_8",
+    "m_c_x_dispatch_history_mean_16",
+    "m_c_x_dispatch_history_max_16",
+    "m_c_x_dispatch_history_mean_96",
+    "m_c_x_dispatch_history_max_96",
+    "m_c_x_physics_score_mean_4",
+    "m_c_x_physics_score_max_4",
+    "m_c_x_physics_score_mean_8",
+    "m_c_x_physics_score_max_8",
+    "m_c_x_physics_score_mean_16",
+    "m_c_x_physics_score_max_16",
+    "m_c_x_physics_score_mean_96",
+    "m_c_x_physics_score_max_96",
+    "m_c_x_gap_mean_4",
+    "m_c_x_gap_max_4",
+    "m_c_x_gap_mean_8",
+    "m_c_x_gap_max_8",
+    "m_c_x_gap_mean_16",
+    "m_c_x_gap_max_16",
+    "m_c_x_gap_mean_96",
+    "m_c_x_gap_max_96",
+    "m_c_x_tracking_mean_4",
+    "m_c_x_tracking_max_4",
+    "m_c_x_tracking_mean_8",
+    "m_c_x_tracking_max_8",
+    "m_c_x_tracking_mean_16",
+    "m_c_x_tracking_max_16",
+    "m_c_x_tracking_mean_96",
+    "m_c_x_tracking_max_96",
+    "m_c_sync_mean_4",
+    "m_c_sync_max_4",
+    "m_c_sync_mean_8",
+    "m_c_sync_max_8",
+    "m_c_sync_mean_16",
+    "m_c_sync_max_16",
+    "m_c_sync_mean_96",
+    "m_c_sync_max_96",
+    "m_x_actual_operational_lag_1",
+    "m_x_actual_operational_lag_2",
+    "m_x_actual_operational_lag_4",
+    "m_x_actual_operational_lag_8",
+    "m_x_actual_operational_lag_16",
+    "m_x_actual_operational_lag_24",
+    "m_x_actual_operational_lag_96",
+    "m_x_potential_lag_1",
+    "m_x_potential_lag_2",
+    "m_x_potential_lag_4",
+    "m_x_potential_lag_8",
+    "m_x_potential_lag_16",
+    "m_x_potential_lag_24",
+    "m_x_potential_lag_96",
+    "m_x_dispatch_history_lag_1",
+    "m_x_dispatch_history_lag_2",
+    "m_x_dispatch_history_lag_4",
+    "m_x_dispatch_history_lag_8",
+    "m_x_dispatch_history_lag_16",
+    "m_x_dispatch_history_lag_24",
+    "m_x_dispatch_history_lag_96",
+    "m_x_physics_score_delta_4",
+    "m_x_gap_delta_4",
+    "m_c_sync_delta_4",
+    "m_streak",
+    "a_delta_1",
+    "a_delta_2",
+    "a_delta_4",
+    "a_delta_8",
+    "a_delta_16",
+    "a_std_4",
+    "a_deviation_4",
+    "a_std_8",
+    "a_deviation_8",
+    "a_std_16",
+    "a_deviation_16",
+    "a_std_96",
+    "a_deviation_96",
+    "a_input_inconsistent"
+  ],
+  "columns": {
+    "own": [
+      "x_potential",
+      "x_hour_sin",
+      "x_hour_cos",
+      "x_year_sin",
+      "x_year_cos",
+      "x_farm_code",
+      "m_x_potential_mean_4",
+      "m_x_potential_max_4",
+      "m_x_potential_mean_8",
+      "m_x_potential_max_8",
+      "m_x_potential_mean_16",
+      "m_x_potential_max_16",
+      "m_x_potential_mean_96",
+      "m_x_potential_max_96",
+      "m_x_potential_lag_1",
+      "m_x_potential_lag_2",
+      "m_x_potential_lag_4",
+      "m_x_potential_lag_8",
+      "m_x_potential_lag_16",
+      "m_x_potential_lag_24",
+      "m_x_potential_lag_96",
+      "a_delta_1",
+      "a_delta_2",
+      "a_delta_4",
+      "a_delta_8",
+      "a_delta_16",
+      "a_std_4",
+      "a_deviation_4",
+      "a_std_8",
+      "a_deviation_8",
+      "a_std_16",
+      "a_deviation_16",
+      "a_std_96",
+      "a_deviation_96"
+    ],
+    "aggregate": [
+      "x_potential",
+      "x_hour_sin",
+      "x_hour_cos",
+      "x_year_sin",
+      "x_year_cos",
+      "x_farm_code",
+      "m_x_potential_mean_4",
+      "m_x_potential_max_4",
+      "m_x_potential_mean_8",
+      "m_x_potential_max_8",
+      "m_x_potential_mean_16",
+      "m_x_potential_max_16",
+      "m_x_potential_mean_96",
+      "m_x_potential_max_96",
+      "m_x_potential_lag_1",
+      "m_x_potential_lag_2",
+      "m_x_potential_lag_4",
+      "m_x_potential_lag_8",
+      "m_x_potential_lag_16",
+      "m_x_potential_lag_24",
+      "m_x_potential_lag_96",
+      "a_delta_1",
+      "a_delta_2",
+      "a_delta_4",
+      "a_delta_8",
+      "a_delta_16",
+      "a_std_4",
+      "a_deviation_4",
+      "a_std_8",
+      "a_deviation_8",
+      "a_std_16",
+      "a_deviation_16",
+      "a_std_96",
+      "a_deviation_96",
+      "c_x_potential",
+      "m_c_x_potential_max_16",
+      "m_c_x_potential_max_4",
+      "m_c_x_potential_max_8",
+      "m_c_x_potential_max_96",
+      "m_c_x_potential_mean_16",
+      "m_c_x_potential_mean_4",
+      "m_c_x_potential_mean_8",
+      "m_c_x_potential_mean_96"
+    ],
+    "spatial": [
+      "x_potential",
+      "x_hour_sin",
+      "x_hour_cos",
+      "x_year_sin",
+      "x_year_cos",
+      "x_farm_code",
+      "m_x_potential_mean_4",
+      "m_x_potential_max_4",
+      "m_x_potential_mean_8",
+      "m_x_potential_max_8",
+      "m_x_potential_mean_16",
+      "m_x_potential_max_16",
+      "m_x_potential_mean_96",
+      "m_x_potential_max_96",
+      "m_x_potential_lag_1",
+      "m_x_potential_lag_2",
+      "m_x_potential_lag_4",
+      "m_x_potential_lag_8",
+      "m_x_potential_lag_16",
+      "m_x_potential_lag_24",
+      "m_x_potential_lag_96",
+      "a_delta_1",
+      "a_delta_2",
+      "a_delta_4",
+      "a_delta_8",
+      "a_delta_16",
+      "a_std_4",
+      "a_deviation_4",
+      "a_std_8",
+      "a_deviation_8",
+      "a_std_16",
+      "a_deviation_16",
+      "a_std_96",
+      "a_deviation_96",
+      "c_x_potential",
+      "m_c_x_potential_max_16",
+      "m_c_x_potential_max_4",
+      "m_c_x_potential_max_8",
+      "m_c_x_potential_max_96",
+      "m_c_x_potential_mean_16",
+      "m_c_x_potential_mean_4",
+      "m_c_x_potential_mean_8",
+      "m_c_x_potential_mean_96",
+      "sp_F1_level_0",
+      "sp_F1_change_0",
+      "sp_F1_level_1",
+      "sp_F1_change_1",
+      "sp_F1_level_2",
+      "sp_F1_change_2",
+      "sp_F1_level_4",
+      "sp_F1_change_4",
+      "sp_F1_level_8",
+      "sp_F1_change_8",
+      "sp_F1_level_16",
+      "sp_F1_change_16",
+      "sp_F1_level_24",
+      "sp_F1_change_24",
+      "sp_F1_level_48",
+      "sp_F1_change_48",
+      "sp_F1_level_92",
+      "sp_F1_change_92",
+      "sp_F2_level_0",
+      "sp_F2_change_0",
+      "sp_F2_level_1",
+      "sp_F2_change_1",
+      "sp_F2_level_2",
+      "sp_F2_change_2",
+      "sp_F2_level_4",
+      "sp_F2_change_4",
+      "sp_F2_level_8",
+      "sp_F2_change_8",
+      "sp_F2_level_16",
+      "sp_F2_change_16",
+      "sp_F2_level_24",
+      "sp_F2_change_24",
+      "sp_F2_level_48",
+      "sp_F2_change_48",
+      "sp_F2_level_92",
+      "sp_F2_change_92",
+      "sp_F3_level_0",
+      "sp_F3_change_0",
+      "sp_F3_level_1",
+      "sp_F3_change_1",
+      "sp_F3_level_2",
+      "sp_F3_change_2",
+      "sp_F3_level_4",
+      "sp_F3_change_4",
+      "sp_F3_level_8",
+      "sp_F3_change_8",
+      "sp_F3_level_16",
+      "sp_F3_change_16",
+      "sp_F3_level_24",
+      "sp_F3_change_24",
+      "sp_F3_level_48",
+      "sp_F3_change_48",
+      "sp_F3_level_92",
+      "sp_F3_change_92",
+      "sp_F4_level_0",
+      "sp_F4_change_0",
+      "sp_F4_level_1",
+      "sp_F4_change_1",
+      "sp_F4_level_2",
+      "sp_F4_change_2",
+      "sp_F4_level_4",
+      "sp_F4_change_4",
+      "sp_F4_level_8",
+      "sp_F4_change_8",
+      "sp_F4_level_16",
+      "sp_F4_change_16",
+      "sp_F4_level_24",
+      "sp_F4_change_24",
+      "sp_F4_level_48",
+      "sp_F4_change_48",
+      "sp_F4_level_92",
+      "sp_F4_change_92",
+      "sp_F5_level_0",
+      "sp_F5_change_0",
+      "sp_F5_level_1",
+      "sp_F5_change_1",
+      "sp_F5_level_2",
+      "sp_F5_change_2",
+      "sp_F5_level_4",
+      "sp_F5_change_4",
+      "sp_F5_level_8",
+      "sp_F5_change_8",
+      "sp_F5_level_16",
+      "sp_F5_change_16",
+      "sp_F5_level_24",
+      "sp_F5_change_24",
+      "sp_F5_level_48",
+      "sp_F5_change_48",
+      "sp_F5_level_92",
+      "sp_F5_change_92"
+    ]
+  },
+  "spatial_columns": [
+    "sp_F1_level_0",
+    "sp_F1_change_0",
+    "sp_F1_level_1",
+    "sp_F1_change_1",
+    "sp_F1_level_2",
+    "sp_F1_change_2",
+    "sp_F1_level_4",
+    "sp_F1_change_4",
+    "sp_F1_level_8",
+    "sp_F1_change_8",
+    "sp_F1_level_16",
+    "sp_F1_change_16",
+    "sp_F1_level_24",
+    "sp_F1_change_24",
+    "sp_F1_level_48",
+    "sp_F1_change_48",
+    "sp_F1_level_92",
+    "sp_F1_change_92",
+    "sp_F2_level_0",
+    "sp_F2_change_0",
+    "sp_F2_level_1",
+    "sp_F2_change_1",
+    "sp_F2_level_2",
+    "sp_F2_change_2",
+    "sp_F2_level_4",
+    "sp_F2_change_4",
+    "sp_F2_level_8",
+    "sp_F2_change_8",
+    "sp_F2_level_16",
+    "sp_F2_change_16",
+    "sp_F2_level_24",
+    "sp_F2_change_24",
+    "sp_F2_level_48",
+    "sp_F2_change_48",
+    "sp_F2_level_92",
+    "sp_F2_change_92",
+    "sp_F3_level_0",
+    "sp_F3_change_0",
+    "sp_F3_level_1",
+    "sp_F3_change_1",
+    "sp_F3_level_2",
+    "sp_F3_change_2",
+    "sp_F3_level_4",
+    "sp_F3_change_4",
+    "sp_F3_level_8",
+    "sp_F3_change_8",
+    "sp_F3_level_16",
+    "sp_F3_change_16",
+    "sp_F3_level_24",
+    "sp_F3_change_24",
+    "sp_F3_level_48",
+    "sp_F3_change_48",
+    "sp_F3_level_92",
+    "sp_F3_change_92",
+    "sp_F4_level_0",
+    "sp_F4_change_0",
+    "sp_F4_level_1",
+    "sp_F4_change_1",
+    "sp_F4_level_2",
+    "sp_F4_change_2",
+    "sp_F4_level_4",
+    "sp_F4_change_4",
+    "sp_F4_level_8",
+    "sp_F4_change_8",
+    "sp_F4_level_16",
+    "sp_F4_change_16",
+    "sp_F4_level_24",
+    "sp_F4_change_24",
+    "sp_F4_level_48",
+    "sp_F4_change_48",
+    "sp_F4_level_92",
+    "sp_F4_change_92",
+    "sp_F5_level_0",
+    "sp_F5_change_0",
+    "sp_F5_level_1",
+    "sp_F5_change_1",
+    "sp_F5_level_2",
+    "sp_F5_change_2",
+    "sp_F5_level_4",
+    "sp_F5_change_4",
+    "sp_F5_level_8",
+    "sp_F5_change_8",
+    "sp_F5_level_16",
+    "sp_F5_change_16",
+    "sp_F5_level_24",
+    "sp_F5_change_24",
+    "sp_F5_level_48",
+    "sp_F5_change_48",
+    "sp_F5_level_92",
+    "sp_F5_change_92"
+  ],
+  "risk_spec": {
+    "tags": {
+      "x_actual_operational": [],
+      "x_potential": [],
+      "x_dispatch_history": [],
+      "x_hour_sin": [],
+      "x_hour_cos": [],
+      "x_year_sin": [],
+      "x_year_cos": [],
+      "x_farm_code": [],
+      "x_physics_score": [
+        "physics"
+      ],
+      "x_gap": [
+        "physics"
+      ],
+      "x_tracking": [
+        "physics"
+      ],
+      "x_state": [
+        "physics"
+      ],
+      "x_severity": [
+        "physics"
+      ],
+      "x_loss": [
+        "physics"
+      ],
+      "c_count": [
+        "cluster"
+      ],
+      "c_x_actual_operational": [
+        "cluster"
+      ],
+      "c_x_potential": [
+        "cluster"
+      ],
+      "c_x_dispatch_history": [
+        "cluster"
+      ],
+      "c_x_physics_score": [
+        "cluster",
+        "physics"
+      ],
+      "c_x_gap": [
+        "cluster",
+        "physics"
+      ],
+      "c_x_tracking": [
+        "cluster",
+        "physics"
+      ],
+      "c_sync": [
+        "cluster",
+        "physics"
+      ],
+      "m_x_actual_operational_mean_4": [
+        "memory"
+      ],
+      "m_x_actual_operational_max_4": [
+        "memory"
+      ],
+      "m_x_actual_operational_mean_8": [
+        "memory"
+      ],
+      "m_x_actual_operational_max_8": [
+        "memory"
+      ],
+      "m_x_actual_operational_mean_16": [
+        "memory"
+      ],
+      "m_x_actual_operational_max_16": [
+        "memory"
+      ],
+      "m_x_actual_operational_mean_96": [
+        "memory"
+      ],
+      "m_x_actual_operational_max_96": [
+        "memory"
+      ],
+      "m_x_potential_mean_4": [
+        "memory"
+      ],
+      "m_x_potential_max_4": [
+        "memory"
+      ],
+      "m_x_potential_mean_8": [
+        "memory"
+      ],
+      "m_x_potential_max_8": [
+        "memory"
+      ],
+      "m_x_potential_mean_16": [
+        "memory"
+      ],
+      "m_x_potential_max_16": [
+        "memory"
+      ],
+      "m_x_potential_mean_96": [
+        "memory"
+      ],
+      "m_x_potential_max_96": [
+        "memory"
+      ],
+      "m_x_dispatch_history_mean_4": [
+        "memory"
+      ],
+      "m_x_dispatch_history_max_4": [
+        "memory"
+      ],
+      "m_x_dispatch_history_mean_8": [
+        "memory"
+      ],
+      "m_x_dispatch_history_max_8": [
+        "memory"
+      ],
+      "m_x_dispatch_history_mean_16": [
+        "memory"
+      ],
+      "m_x_dispatch_history_max_16": [
+        "memory"
+      ],
+      "m_x_dispatch_history_mean_96": [
+        "memory"
+      ],
+      "m_x_dispatch_history_max_96": [
+        "memory"
+      ],
+      "m_x_physics_score_mean_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_physics_score_max_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_physics_score_mean_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_physics_score_max_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_physics_score_mean_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_physics_score_max_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_physics_score_mean_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_physics_score_max_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_mean_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_max_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_mean_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_max_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_mean_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_max_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_mean_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_max_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_tracking_mean_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_tracking_max_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_tracking_mean_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_tracking_max_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_tracking_mean_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_tracking_max_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_tracking_mean_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_tracking_max_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_state_mean_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_state_max_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_state_mean_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_state_max_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_state_mean_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_state_max_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_state_mean_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_state_max_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_severity_mean_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_severity_max_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_severity_mean_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_severity_max_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_severity_mean_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_severity_max_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_severity_mean_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_severity_max_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_loss_mean_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_loss_max_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_loss_mean_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_loss_max_8": [
+        "memory",
+        "physics"
+      ],
+      "m_x_loss_mean_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_loss_max_16": [
+        "memory",
+        "physics"
+      ],
+      "m_x_loss_mean_96": [
+        "memory",
+        "physics"
+      ],
+      "m_x_loss_max_96": [
+        "memory",
+        "physics"
+      ],
+      "m_c_x_actual_operational_mean_4": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_actual_operational_max_4": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_actual_operational_mean_8": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_actual_operational_max_8": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_actual_operational_mean_16": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_actual_operational_max_16": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_actual_operational_mean_96": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_actual_operational_max_96": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_potential_mean_4": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_potential_max_4": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_potential_mean_8": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_potential_max_8": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_potential_mean_16": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_potential_max_16": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_potential_mean_96": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_potential_max_96": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_dispatch_history_mean_4": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_dispatch_history_max_4": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_dispatch_history_mean_8": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_dispatch_history_max_8": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_dispatch_history_mean_16": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_dispatch_history_max_16": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_dispatch_history_mean_96": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_dispatch_history_max_96": [
+        "cluster",
+        "memory"
+      ],
+      "m_c_x_physics_score_mean_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_physics_score_max_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_physics_score_mean_8": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_physics_score_max_8": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_physics_score_mean_16": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_physics_score_max_16": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_physics_score_mean_96": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_physics_score_max_96": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_gap_mean_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_gap_max_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_gap_mean_8": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_gap_max_8": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_gap_mean_16": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_gap_max_16": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_gap_mean_96": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_gap_max_96": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_tracking_mean_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_tracking_max_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_tracking_mean_8": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_tracking_max_8": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_tracking_mean_16": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_tracking_max_16": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_tracking_mean_96": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_x_tracking_max_96": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_mean_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_max_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_mean_8": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_max_8": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_mean_16": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_max_16": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_mean_96": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_max_96": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_x_actual_operational_lag_1": [
+        "memory"
+      ],
+      "m_x_actual_operational_lag_2": [
+        "memory"
+      ],
+      "m_x_actual_operational_lag_4": [
+        "memory"
+      ],
+      "m_x_actual_operational_lag_8": [
+        "memory"
+      ],
+      "m_x_actual_operational_lag_16": [
+        "memory"
+      ],
+      "m_x_actual_operational_lag_24": [
+        "memory"
+      ],
+      "m_x_actual_operational_lag_96": [
+        "memory"
+      ],
+      "m_x_potential_lag_1": [
+        "memory"
+      ],
+      "m_x_potential_lag_2": [
+        "memory"
+      ],
+      "m_x_potential_lag_4": [
+        "memory"
+      ],
+      "m_x_potential_lag_8": [
+        "memory"
+      ],
+      "m_x_potential_lag_16": [
+        "memory"
+      ],
+      "m_x_potential_lag_24": [
+        "memory"
+      ],
+      "m_x_potential_lag_96": [
+        "memory"
+      ],
+      "m_x_dispatch_history_lag_1": [
+        "memory"
+      ],
+      "m_x_dispatch_history_lag_2": [
+        "memory"
+      ],
+      "m_x_dispatch_history_lag_4": [
+        "memory"
+      ],
+      "m_x_dispatch_history_lag_8": [
+        "memory"
+      ],
+      "m_x_dispatch_history_lag_16": [
+        "memory"
+      ],
+      "m_x_dispatch_history_lag_24": [
+        "memory"
+      ],
+      "m_x_dispatch_history_lag_96": [
+        "memory"
+      ],
+      "m_x_physics_score_delta_4": [
+        "memory",
+        "physics"
+      ],
+      "m_x_gap_delta_4": [
+        "memory",
+        "physics"
+      ],
+      "m_c_sync_delta_4": [
+        "cluster",
+        "memory",
+        "physics"
+      ],
+      "m_streak": [
+        "memory",
+        "physics"
+      ]
+    },
+    "variants": {
+      "full": [
+        "x_actual_operational",
+        "x_potential",
+        "x_dispatch_history",
+        "x_hour_sin",
+        "x_hour_cos",
+        "x_year_sin",
+        "x_year_cos",
+        "x_farm_code",
+        "x_physics_score",
+        "x_gap",
+        "x_tracking",
+        "x_state",
+        "x_severity",
+        "x_loss",
+        "c_count",
+        "c_x_actual_operational",
+        "c_x_potential",
+        "c_x_dispatch_history",
+        "c_x_physics_score",
+        "c_x_gap",
+        "c_x_tracking",
+        "c_sync",
+        "m_x_actual_operational_mean_4",
+        "m_x_actual_operational_max_4",
+        "m_x_actual_operational_mean_8",
+        "m_x_actual_operational_max_8",
+        "m_x_actual_operational_mean_16",
+        "m_x_actual_operational_max_16",
+        "m_x_actual_operational_mean_96",
+        "m_x_actual_operational_max_96",
+        "m_x_potential_mean_4",
+        "m_x_potential_max_4",
+        "m_x_potential_mean_8",
+        "m_x_potential_max_8",
+        "m_x_potential_mean_16",
+        "m_x_potential_max_16",
+        "m_x_potential_mean_96",
+        "m_x_potential_max_96",
+        "m_x_dispatch_history_mean_4",
+        "m_x_dispatch_history_max_4",
+        "m_x_dispatch_history_mean_8",
+        "m_x_dispatch_history_max_8",
+        "m_x_dispatch_history_mean_16",
+        "m_x_dispatch_history_max_16",
+        "m_x_dispatch_history_mean_96",
+        "m_x_dispatch_history_max_96",
+        "m_x_physics_score_mean_4",
+        "m_x_physics_score_max_4",
+        "m_x_physics_score_mean_8",
+        "m_x_physics_score_max_8",
+        "m_x_physics_score_mean_16",
+        "m_x_physics_score_max_16",
+        "m_x_physics_score_mean_96",
+        "m_x_physics_score_max_96",
+        "m_x_gap_mean_4",
+        "m_x_gap_max_4",
+        "m_x_gap_mean_8",
+        "m_x_gap_max_8",
+        "m_x_gap_mean_16",
+        "m_x_gap_max_16",
+        "m_x_gap_mean_96",
+        "m_x_gap_max_96",
+        "m_x_tracking_mean_4",
+        "m_x_tracking_max_4",
+        "m_x_tracking_mean_8",
+        "m_x_tracking_max_8",
+        "m_x_tracking_mean_16",
+        "m_x_tracking_max_16",
+        "m_x_tracking_mean_96",
+        "m_x_tracking_max_96",
+        "m_x_state_mean_4",
+        "m_x_state_max_4",
+        "m_x_state_mean_8",
+        "m_x_state_max_8",
+        "m_x_state_mean_16",
+        "m_x_state_max_16",
+        "m_x_state_mean_96",
+        "m_x_state_max_96",
+        "m_x_severity_mean_4",
+        "m_x_severity_max_4",
+        "m_x_severity_mean_8",
+        "m_x_severity_max_8",
+        "m_x_severity_mean_16",
+        "m_x_severity_max_16",
+        "m_x_severity_mean_96",
+        "m_x_severity_max_96",
+        "m_x_loss_mean_4",
+        "m_x_loss_max_4",
+        "m_x_loss_mean_8",
+        "m_x_loss_max_8",
+        "m_x_loss_mean_16",
+        "m_x_loss_max_16",
+        "m_x_loss_mean_96",
+        "m_x_loss_max_96",
+        "m_c_x_actual_operational_mean_4",
+        "m_c_x_actual_operational_max_4",
+        "m_c_x_actual_operational_mean_8",
+        "m_c_x_actual_operational_max_8",
+        "m_c_x_actual_operational_mean_16",
+        "m_c_x_actual_operational_max_16",
+        "m_c_x_actual_operational_mean_96",
+        "m_c_x_actual_operational_max_96",
+        "m_c_x_potential_mean_4",
+        "m_c_x_potential_max_4",
+        "m_c_x_potential_mean_8",
+        "m_c_x_potential_max_8",
+        "m_c_x_potential_mean_16",
+        "m_c_x_potential_max_16",
+        "m_c_x_potential_mean_96",
+        "m_c_x_potential_max_96",
+        "m_c_x_dispatch_history_mean_4",
+        "m_c_x_dispatch_history_max_4",
+        "m_c_x_dispatch_history_mean_8",
+        "m_c_x_dispatch_history_max_8",
+        "m_c_x_dispatch_history_mean_16",
+        "m_c_x_dispatch_history_max_16",
+        "m_c_x_dispatch_history_mean_96",
+        "m_c_x_dispatch_history_max_96",
+        "m_c_x_physics_score_mean_4",
+        "m_c_x_physics_score_max_4",
+        "m_c_x_physics_score_mean_8",
+        "m_c_x_physics_score_max_8",
+        "m_c_x_physics_score_mean_16",
+        "m_c_x_physics_score_max_16",
+        "m_c_x_physics_score_mean_96",
+        "m_c_x_physics_score_max_96",
+        "m_c_x_gap_mean_4",
+        "m_c_x_gap_max_4",
+        "m_c_x_gap_mean_8",
+        "m_c_x_gap_max_8",
+        "m_c_x_gap_mean_16",
+        "m_c_x_gap_max_16",
+        "m_c_x_gap_mean_96",
+        "m_c_x_gap_max_96",
+        "m_c_x_tracking_mean_4",
+        "m_c_x_tracking_max_4",
+        "m_c_x_tracking_mean_8",
+        "m_c_x_tracking_max_8",
+        "m_c_x_tracking_mean_16",
+        "m_c_x_tracking_max_16",
+        "m_c_x_tracking_mean_96",
+        "m_c_x_tracking_max_96",
+        "m_c_sync_mean_4",
+        "m_c_sync_max_4",
+        "m_c_sync_mean_8",
+        "m_c_sync_max_8",
+        "m_c_sync_mean_16",
+        "m_c_sync_max_16",
+        "m_c_sync_mean_96",
+        "m_c_sync_max_96",
+        "m_x_actual_operational_lag_1",
+        "m_x_actual_operational_lag_2",
+        "m_x_actual_operational_lag_4",
+        "m_x_actual_operational_lag_8",
+        "m_x_actual_operational_lag_16",
+        "m_x_actual_operational_lag_24",
+        "m_x_actual_operational_lag_96",
+        "m_x_potential_lag_1",
+        "m_x_potential_lag_2",
+        "m_x_potential_lag_4",
+        "m_x_potential_lag_8",
+        "m_x_potential_lag_16",
+        "m_x_potential_lag_24",
+        "m_x_potential_lag_96",
+        "m_x_dispatch_history_lag_1",
+        "m_x_dispatch_history_lag_2",
+        "m_x_dispatch_history_lag_4",
+        "m_x_dispatch_history_lag_8",
+        "m_x_dispatch_history_lag_16",
+        "m_x_dispatch_history_lag_24",
+        "m_x_dispatch_history_lag_96",
+        "m_x_physics_score_delta_4",
+        "m_x_gap_delta_4",
+        "m_c_sync_delta_4",
+        "m_streak"
+      ],
+      "no_cluster": [
+        "x_actual_operational",
+        "x_potential",
+        "x_dispatch_history",
+        "x_hour_sin",
+        "x_hour_cos",
+        "x_year_sin",
+        "x_year_cos",
+        "x_farm_code",
+        "x_physics_score",
+        "x_gap",
+        "x_tracking",
+        "x_state",
+        "x_severity",
+        "x_loss",
+        "m_x_actual_operational_mean_4",
+        "m_x_actual_operational_max_4",
+        "m_x_actual_operational_mean_8",
+        "m_x_actual_operational_max_8",
+        "m_x_actual_operational_mean_16",
+        "m_x_actual_operational_max_16",
+        "m_x_actual_operational_mean_96",
+        "m_x_actual_operational_max_96",
+        "m_x_potential_mean_4",
+        "m_x_potential_max_4",
+        "m_x_potential_mean_8",
+        "m_x_potential_max_8",
+        "m_x_potential_mean_16",
+        "m_x_potential_max_16",
+        "m_x_potential_mean_96",
+        "m_x_potential_max_96",
+        "m_x_dispatch_history_mean_4",
+        "m_x_dispatch_history_max_4",
+        "m_x_dispatch_history_mean_8",
+        "m_x_dispatch_history_max_8",
+        "m_x_dispatch_history_mean_16",
+        "m_x_dispatch_history_max_16",
+        "m_x_dispatch_history_mean_96",
+        "m_x_dispatch_history_max_96",
+        "m_x_physics_score_mean_4",
+        "m_x_physics_score_max_4",
+        "m_x_physics_score_mean_8",
+        "m_x_physics_score_max_8",
+        "m_x_physics_score_mean_16",
+        "m_x_physics_score_max_16",
+        "m_x_physics_score_mean_96",
+        "m_x_physics_score_max_96",
+        "m_x_gap_mean_4",
+        "m_x_gap_max_4",
+        "m_x_gap_mean_8",
+        "m_x_gap_max_8",
+        "m_x_gap_mean_16",
+        "m_x_gap_max_16",
+        "m_x_gap_mean_96",
+        "m_x_gap_max_96",
+        "m_x_tracking_mean_4",
+        "m_x_tracking_max_4",
+        "m_x_tracking_mean_8",
+        "m_x_tracking_max_8",
+        "m_x_tracking_mean_16",
+        "m_x_tracking_max_16",
+        "m_x_tracking_mean_96",
+        "m_x_tracking_max_96",
+        "m_x_state_mean_4",
+        "m_x_state_max_4",
+        "m_x_state_mean_8",
+        "m_x_state_max_8",
+        "m_x_state_mean_16",
+        "m_x_state_max_16",
+        "m_x_state_mean_96",
+        "m_x_state_max_96",
+        "m_x_severity_mean_4",
+        "m_x_severity_max_4",
+        "m_x_severity_mean_8",
+        "m_x_severity_max_8",
+        "m_x_severity_mean_16",
+        "m_x_severity_max_16",
+        "m_x_severity_mean_96",
+        "m_x_severity_max_96",
+        "m_x_loss_mean_4",
+        "m_x_loss_max_4",
+        "m_x_loss_mean_8",
+        "m_x_loss_max_8",
+        "m_x_loss_mean_16",
+        "m_x_loss_max_16",
+        "m_x_loss_mean_96",
+        "m_x_loss_max_96",
+        "m_x_actual_operational_lag_1",
+        "m_x_actual_operational_lag_2",
+        "m_x_actual_operational_lag_4",
+        "m_x_actual_operational_lag_8",
+        "m_x_actual_operational_lag_16",
+        "m_x_actual_operational_lag_24",
+        "m_x_actual_operational_lag_96",
+        "m_x_potential_lag_1",
+        "m_x_potential_lag_2",
+        "m_x_potential_lag_4",
+        "m_x_potential_lag_8",
+        "m_x_potential_lag_16",
+        "m_x_potential_lag_24",
+        "m_x_potential_lag_96",
+        "m_x_dispatch_history_lag_1",
+        "m_x_dispatch_history_lag_2",
+        "m_x_dispatch_history_lag_4",
+        "m_x_dispatch_history_lag_8",
+        "m_x_dispatch_history_lag_16",
+        "m_x_dispatch_history_lag_24",
+        "m_x_dispatch_history_lag_96",
+        "m_x_physics_score_delta_4",
+        "m_x_gap_delta_4",
+        "m_streak"
+      ],
+      "no_memory": [
+        "x_actual_operational",
+        "x_potential",
+        "x_dispatch_history",
+        "x_hour_sin",
+        "x_hour_cos",
+        "x_year_sin",
+        "x_year_cos",
+        "x_farm_code",
+        "x_physics_score",
+        "x_gap",
+        "x_tracking",
+        "x_state",
+        "x_severity",
+        "x_loss",
+        "c_count",
+        "c_x_actual_operational",
+        "c_x_potential",
+        "c_x_dispatch_history",
+        "c_x_physics_score",
+        "c_x_gap",
+        "c_x_tracking",
+        "c_sync"
+      ],
+      "no_physics": [
+        "x_actual_operational",
+        "x_potential",
+        "x_dispatch_history",
+        "x_hour_sin",
+        "x_hour_cos",
+        "x_year_sin",
+        "x_year_cos",
+        "x_farm_code",
+        "c_count",
+        "c_x_actual_operational",
+        "c_x_potential",
+        "c_x_dispatch_history",
+        "m_x_actual_operational_mean_4",
+        "m_x_actual_operational_max_4",
+        "m_x_actual_operational_mean_8",
+        "m_x_actual_operational_max_8",
+        "m_x_actual_operational_mean_16",
+        "m_x_actual_operational_max_16",
+        "m_x_actual_operational_mean_96",
+        "m_x_actual_operational_max_96",
+        "m_x_potential_mean_4",
+        "m_x_potential_max_4",
+        "m_x_potential_mean_8",
+        "m_x_potential_max_8",
+        "m_x_potential_mean_16",
+        "m_x_potential_max_16",
+        "m_x_potential_mean_96",
+        "m_x_potential_max_96",
+        "m_x_dispatch_history_mean_4",
+        "m_x_dispatch_history_max_4",
+        "m_x_dispatch_history_mean_8",
+        "m_x_dispatch_history_max_8",
+        "m_x_dispatch_history_mean_16",
+        "m_x_dispatch_history_max_16",
+        "m_x_dispatch_history_mean_96",
+        "m_x_dispatch_history_max_96",
+        "m_c_x_actual_operational_mean_4",
+        "m_c_x_actual_operational_max_4",
+        "m_c_x_actual_operational_mean_8",
+        "m_c_x_actual_operational_max_8",
+        "m_c_x_actual_operational_mean_16",
+        "m_c_x_actual_operational_max_16",
+        "m_c_x_actual_operational_mean_96",
+        "m_c_x_actual_operational_max_96",
+        "m_c_x_potential_mean_4",
+        "m_c_x_potential_max_4",
+        "m_c_x_potential_mean_8",
+        "m_c_x_potential_max_8",
+        "m_c_x_potential_mean_16",
+        "m_c_x_potential_max_16",
+        "m_c_x_potential_mean_96",
+        "m_c_x_potential_max_96",
+        "m_c_x_dispatch_history_mean_4",
+        "m_c_x_dispatch_history_max_4",
+        "m_c_x_dispatch_history_mean_8",
+        "m_c_x_dispatch_history_max_8",
+        "m_c_x_dispatch_history_mean_16",
+        "m_c_x_dispatch_history_max_16",
+        "m_c_x_dispatch_history_mean_96",
+        "m_c_x_dispatch_history_max_96",
+        "m_x_actual_operational_lag_1",
+        "m_x_actual_operational_lag_2",
+        "m_x_actual_operational_lag_4",
+        "m_x_actual_operational_lag_8",
+        "m_x_actual_operational_lag_16",
+        "m_x_actual_operational_lag_24",
+        "m_x_actual_operational_lag_96",
+        "m_x_potential_lag_1",
+        "m_x_potential_lag_2",
+        "m_x_potential_lag_4",
+        "m_x_potential_lag_8",
+        "m_x_potential_lag_16",
+        "m_x_potential_lag_24",
+        "m_x_potential_lag_96",
+        "m_x_dispatch_history_lag_1",
+        "m_x_dispatch_history_lag_2",
+        "m_x_dispatch_history_lag_4",
+        "m_x_dispatch_history_lag_8",
+        "m_x_dispatch_history_lag_16",
+        "m_x_dispatch_history_lag_24",
+        "m_x_dispatch_history_lag_96"
+      ]
+    },
+    "residual": [
+      "r_ratio",
+      "r_flag",
+      "r_soft",
+      "r_flag_mean_4",
+      "r_flag_mean_8",
+      "r_flag_mean_16",
+      "r_flag_mean_96",
+      "r_soft_mean_4",
+      "r_soft_max_4",
+      "r_soft_mean_8",
+      "r_soft_max_8",
+      "r_soft_mean_16",
+      "r_soft_max_16",
+      "r_soft_mean_96",
+      "r_soft_max_96",
+      "x_hour_sin",
+      "x_hour_cos",
+      "x_year_sin",
+      "x_year_cos"
+    ],
+    "no_physics_meaning": "Remove engineered physics and label descendants; retain raw A/P/D and common validity mask."
+  },
+  "power_spec": {
+    "observed": [
+      "x_actual_operational",
+      "x_potential",
+      "x_dispatch_history",
+      "x_hour_sin",
+      "x_hour_cos",
+      "x_year_sin",
+      "x_year_cos",
+      "x_farm_code",
+      "x_physics_score",
+      "x_gap",
+      "x_tracking",
+      "x_state",
+      "x_severity",
+      "x_loss",
+      "c_count",
+      "c_x_actual_operational",
+      "c_x_potential",
+      "c_x_dispatch_history",
+      "c_x_physics_score",
+      "c_x_gap",
+      "c_x_tracking",
+      "c_sync",
+      "m_x_actual_operational_mean_4",
+      "m_x_actual_operational_max_4",
+      "m_x_actual_operational_mean_8",
+      "m_x_actual_operational_max_8",
+      "m_x_actual_operational_mean_16",
+      "m_x_actual_operational_max_16",
+      "m_x_actual_operational_mean_96",
+      "m_x_actual_operational_max_96",
+      "m_x_potential_mean_4",
+      "m_x_potential_max_4",
+      "m_x_potential_mean_8",
+      "m_x_potential_max_8",
+      "m_x_potential_mean_16",
+      "m_x_potential_max_16",
+      "m_x_potential_mean_96",
+      "m_x_potential_max_96",
+      "m_x_dispatch_history_mean_4",
+      "m_x_dispatch_history_max_4",
+      "m_x_dispatch_history_mean_8",
+      "m_x_dispatch_history_max_8",
+      "m_x_dispatch_history_mean_16",
+      "m_x_dispatch_history_max_16",
+      "m_x_dispatch_history_mean_96",
+      "m_x_dispatch_history_max_96",
+      "m_x_physics_score_mean_4",
+      "m_x_physics_score_max_4",
+      "m_x_physics_score_mean_8",
+      "m_x_physics_score_max_8",
+      "m_x_physics_score_mean_16",
+      "m_x_physics_score_max_16",
+      "m_x_physics_score_mean_96",
+      "m_x_physics_score_max_96",
+      "m_x_gap_mean_4",
+      "m_x_gap_max_4",
+      "m_x_gap_mean_8",
+      "m_x_gap_max_8",
+      "m_x_gap_mean_16",
+      "m_x_gap_max_16",
+      "m_x_gap_mean_96",
+      "m_x_gap_max_96",
+      "m_x_tracking_mean_4",
+      "m_x_tracking_max_4",
+      "m_x_tracking_mean_8",
+      "m_x_tracking_max_8",
+      "m_x_tracking_mean_16",
+      "m_x_tracking_max_16",
+      "m_x_tracking_mean_96",
+      "m_x_tracking_max_96",
+      "m_x_state_mean_4",
+      "m_x_state_max_4",
+      "m_x_state_mean_8",
+      "m_x_state_max_8",
+      "m_x_state_mean_16",
+      "m_x_state_max_16",
+      "m_x_state_mean_96",
+      "m_x_state_max_96",
+      "m_x_severity_mean_4",
+      "m_x_severity_max_4",
+      "m_x_severity_mean_8",
+      "m_x_severity_max_8",
+      "m_x_severity_mean_16",
+      "m_x_severity_max_16",
+      "m_x_severity_mean_96",
+      "m_x_severity_max_96",
+      "m_x_loss_mean_4",
+      "m_x_loss_max_4",
+      "m_x_loss_mean_8",
+      "m_x_loss_max_8",
+      "m_x_loss_mean_16",
+      "m_x_loss_max_16",
+      "m_x_loss_mean_96",
+      "m_x_loss_max_96",
+      "m_c_x_actual_operational_mean_4",
+      "m_c_x_actual_operational_max_4",
+      "m_c_x_actual_operational_mean_8",
+      "m_c_x_actual_operational_max_8",
+      "m_c_x_actual_operational_mean_16",
+      "m_c_x_actual_operational_max_16",
+      "m_c_x_actual_operational_mean_96",
+      "m_c_x_actual_operational_max_96",
+      "m_c_x_potential_mean_4",
+      "m_c_x_potential_max_4",
+      "m_c_x_potential_mean_8",
+      "m_c_x_potential_max_8",
+      "m_c_x_potential_mean_16",
+      "m_c_x_potential_max_16",
+      "m_c_x_potential_mean_96",
+      "m_c_x_potential_max_96",
+      "m_c_x_dispatch_history_mean_4",
+      "m_c_x_dispatch_history_max_4",
+      "m_c_x_dispatch_history_mean_8",
+      "m_c_x_dispatch_history_max_8",
+      "m_c_x_dispatch_history_mean_16",
+      "m_c_x_dispatch_history_max_16",
+      "m_c_x_dispatch_history_mean_96",
+      "m_c_x_dispatch_history_max_96",
+      "m_c_x_physics_score_mean_4",
+      "m_c_x_physics_score_max_4",
+      "m_c_x_physics_score_mean_8",
+      "m_c_x_physics_score_max_8",
+      "m_c_x_physics_score_mean_16",
+      "m_c_x_physics_score_max_16",
+      "m_c_x_physics_score_mean_96",
+      "m_c_x_physics_score_max_96",
+      "m_c_x_gap_mean_4",
+      "m_c_x_gap_max_4",
+      "m_c_x_gap_mean_8",
+      "m_c_x_gap_max_8",
+      "m_c_x_gap_mean_16",
+      "m_c_x_gap_max_16",
+      "m_c_x_gap_mean_96",
+      "m_c_x_gap_max_96",
+      "m_c_x_tracking_mean_4",
+      "m_c_x_tracking_max_4",
+      "m_c_x_tracking_mean_8",
+      "m_c_x_tracking_max_8",
+      "m_c_x_tracking_mean_16",
+      "m_c_x_tracking_max_16",
+      "m_c_x_tracking_mean_96",
+      "m_c_x_tracking_max_96",
+      "m_c_sync_mean_4",
+      "m_c_sync_max_4",
+      "m_c_sync_mean_8",
+      "m_c_sync_max_8",
+      "m_c_sync_mean_16",
+      "m_c_sync_max_16",
+      "m_c_sync_mean_96",
+      "m_c_sync_max_96",
+      "m_x_actual_operational_lag_1",
+      "m_x_actual_operational_lag_2",
+      "m_x_actual_operational_lag_4",
+      "m_x_actual_operational_lag_8",
+      "m_x_actual_operational_lag_16",
+      "m_x_actual_operational_lag_24",
+      "m_x_actual_operational_lag_96",
+      "m_x_potential_lag_1",
+      "m_x_potential_lag_2",
+      "m_x_potential_lag_4",
+      "m_x_potential_lag_8",
+      "m_x_potential_lag_16",
+      "m_x_potential_lag_24",
+      "m_x_potential_lag_96",
+      "m_x_dispatch_history_lag_1",
+      "m_x_dispatch_history_lag_2",
+      "m_x_dispatch_history_lag_4",
+      "m_x_dispatch_history_lag_8",
+      "m_x_dispatch_history_lag_16",
+      "m_x_dispatch_history_lag_24",
+      "m_x_dispatch_history_lag_96",
+      "m_x_physics_score_delta_4",
+      "m_x_gap_delta_4",
+      "m_c_sync_delta_4",
+      "m_streak",
+      "a_delta_1",
+      "a_delta_2",
+      "a_delta_4",
+      "a_delta_8",
+      "a_delta_16",
+      "a_std_4",
+      "a_deviation_4",
+      "a_std_8",
+      "a_deviation_8",
+      "a_std_16",
+      "a_deviation_16",
+      "a_std_96",
+      "a_deviation_96",
+      "a_input_inconsistent"
+    ],
+    "history": [
+      "x_potential",
+      "x_hour_sin",
+      "x_hour_cos",
+      "x_year_sin",
+      "x_year_cos",
+      "x_farm_code",
+      "m_x_potential_mean_4",
+      "m_x_potential_max_4",
+      "m_x_potential_mean_8",
+      "m_x_potential_max_8",
+      "m_x_potential_mean_16",
+      "m_x_potential_max_16",
+      "m_x_potential_mean_96",
+      "m_x_potential_max_96",
+      "m_x_potential_lag_1",
+      "m_x_potential_lag_2",
+      "m_x_potential_lag_4",
+      "m_x_potential_lag_8",
+      "m_x_potential_lag_16",
+      "m_x_potential_lag_24",
+      "m_x_potential_lag_96",
+      "a_delta_1",
+      "a_delta_2",
+      "a_delta_4",
+      "a_delta_8",
+      "a_delta_16",
+      "a_std_4",
+      "a_deviation_4",
+      "a_std_8",
+      "a_deviation_8",
+      "a_std_16",
+      "a_deviation_16",
+      "a_std_96",
+      "a_deviation_96"
+    ]
+  },
+  "base_columns": [
+    "farm",
+    "Timestamp",
+    "actual_operational",
+    "potential",
+    "dispatch_history",
+    "teacher_probability",
+    "curtailed",
+    "severity",
+    "curtailment_mw",
+    "capacity_proxy",
+    "input_valid",
+    "sample_coverage",
+    "suspected_outage"
+  ]
+}

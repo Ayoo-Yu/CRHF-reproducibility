@@ -1,0 +1,5 @@
+Forecasting method,Inputs and processing,MAE / MW,RMSE / MW
+Standard direct CatBoost,"Local history, cross-farm aggregates, and tabular features",9.1548,17.3507
+Direct CatBoost with individual farm inputs,Adds available-power histories and changes for each source farm,9.1284,17.3071
+CRHF base forecast B,Adds locally weighted ridge regression using feedback from recent similar records,8.9693,17.0437
+Full CRHF,"Uses future curtailment probability and available-power forecasts, selecting corrections by historical gain in the same risk regime",8.9588,17.0049

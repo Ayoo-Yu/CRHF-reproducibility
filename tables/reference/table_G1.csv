@@ -1,0 +1,12 @@
+Method,Architecture or regularization settings,Learning rate
+Persistence,Use current actual wind power as the target-time forecast.,—
+Ridge,Regularization coefficient 100,—
+ExtraTrees,"240 trees, at least 24 samples per leaf, feature fraction 0.8",—
+HGB,"240 boosting rounds, at most 31 leaves, $L_{2}$ regularization coefficient 1",0.04
+CatBoost,240 trees of depth 7,0.04
+LightGBM,"240 trees, 15 leaves, at least 24 samples per leaf, $L_{2}$ regularization coefficient 1",0.04
+MLP,"Two hidden layers with 128 and 64 units, ReLU activation, dropout of 0.1 after the first hidden layer",0.0003
+GRU,"One layer, hidden state dimension 32",0.001
+PatchTST,"2 layers, 4 attention heads, model dimension 64, feedforward dimension 128, patch length 16, stride 8",0.0003
+MixLinear,"Period length 4, low-pass parameter 6, time–frequency mixing weight 0.5",0.001
+MDLinear,"25-step moving average, one temporal mapping per component shared across channels, six channels combined linearly into one output",0.001
